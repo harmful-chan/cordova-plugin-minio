@@ -12,5 +12,6 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/Minio.java" target-dir="src/org/apache/cordova/minio" />
+        <lib-file src="src/libs/minio-7.0.2.jar" arch="device" />
     </platform>
 </plugin>
